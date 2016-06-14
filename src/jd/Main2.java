@@ -2,6 +2,9 @@ package jd;
 
 import java.util.Scanner;
 
+/**
+ *	这个写得有问题.
+ */
 public class Main2
 {
 	private static String solve(char[][] board ,int xnum , int onum ,int dotnum)
