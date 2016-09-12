@@ -26,7 +26,7 @@ public class CountPrimes
     			continue;
     		}
     		
-    		for(int j = i * i ; j < n ; j += i)//即使i不是素数，但i的倍数是素数.
+    		for(int j = i * i ; j < n ; j += i)//i不是素数，将i的倍数也标记为非素数.
     		{
     			isPrime[j] = false;
     		}
@@ -59,7 +59,7 @@ public class CountPrimes
     			continue;
     		}
     		
-    		for(int j = i * i ; j < n ; j += i)//即使i不是素数，但i的倍数是素数.
+    		for(int j = i * i ; j < n ; j += i)//i不是素数，将i的倍数也标记为非素数.
     		{
     			NotPrime[j] = true;
     		}
